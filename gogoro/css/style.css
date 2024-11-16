@@ -1,0 +1,185 @@
+body {
+    color: white;
+}
+
+/* 全區域 */
+.all-area {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    width          : 100%;
+    margin         : 0px auto;
+    font-weight    : bold;
+}
+
+.div-top {
+    width           : 100vw;
+    height          : 70vw;
+    background-color: black;
+}
+
+/* 引導欄 */
+.div-bar {
+    width: 95VW;
+}
+
+.ul-container {
+    height         : 1vw;
+    width          : 100%;
+    margin-left    : 0%;
+    list-style     : none;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    align-items    : center;
+}
+
+.li-container {
+    text-align: center;
+    margin-top: 1%;
+}
+
+/* 總宣傳語 */
+.div-banner {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    text-align     : center;
+    height         : 30%;
+}
+
+/* 副標題 */
+.subtitle {
+    margin-bottom : 1%;
+    vertical-align: bottom;
+}
+
+.slogan {
+    margin-top: 0.5%;
+}
+
+.img-main {
+    width : 98vw;
+    height: 60vw;
+}
+
+/* 圖片區 */
+.div-img {
+    background-color: white;
+    margin          : 0px;
+    width           : 98vw;
+}
+
+/* 兩張圖 */
+.div-twoimg {
+    position       : relative;
+    width          : 98vw;
+    margin-top     : 1%;
+    text-align     : center;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+/* 兩張圖片區的文字 */
+.div-twoimg-text {
+    position       : absolute;
+    text-align     : center;
+    width          : 48.5vw;
+    height         : 100%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+/* 兩張圖片區的圖 */
+.img-twoimg {
+    width: 48.5vw;
+}
+
+/* 一張圖 */
+.div-oneimg {
+    position  : relative;
+    width     : 98vw;
+    margin-top: 1%;
+}
+
+/* 一張圖片區的文字 */
+.div-oneimg-text {
+    position       : absolute;
+    text-align     : center;
+    width          : 100vw;
+    height         : 100%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+/* 一張圖片區的圖 */
+.img-oneimg {
+    width : 98vw;
+    height: 40vw;
+}
+
+/* 藍色的 > */
+.know {
+    color: blue;
+}
+
+/* 較長圖 */
+.longImg {
+    height: 50vw
+}
+
+/* 較高的文字 */
+.highText {
+    bottom: 20%;
+}
+
+/* 較窄 */
+.narrow {
+    width: 40vw;
+}
+
+/* 較寬 */
+.wider {
+    width: 56vw;
+}
+
+/* 黑字 */
+.blackText {
+    color: black;
+}
+
+/* 文字置左 */
+.leftText {
+    margin-left: 40%;
+    text-align : left;
+}
+
+/* 第8層 文字+圖片 */
+.div-levelEight {
+    color     : black;
+    text-align: center;
+    height    : 50vw;
+    width: 80vw;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+/* 第8層的圖片 */
+.img-eight {
+    width : 100%;
+    height: 50%;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.detail-text{
+    width: 20%;
+}
